@@ -1,0 +1,10 @@
+# Site settings
+title: Scriptfy
+email: us@scriptfy.com
+description: A startup
+url: "http://scriptfy.com.com" # the base hostname & protocol for your site
+twitter_username: scriptfyinc
+github_username:  scriptfy
+
+# Build settings
+markdown: kramdown
