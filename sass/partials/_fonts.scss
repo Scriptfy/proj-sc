@@ -2,7 +2,7 @@
  FONT FAMILY
  */
 $primary: 'Roboto', Helvetica, Arial, sans-serif;
-
+$secondary: 'Merriweather', serif;
 /*
  FONT COLORS
  */
@@ -42,4 +42,7 @@ $half-base-spacing-unit: $base-line-height/2;
 
 .f-24 {
   @include font-size(24);
+}
+.f-100 {
+  @include font-size(100);
 }

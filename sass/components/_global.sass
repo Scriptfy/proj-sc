@@ -4,5 +4,32 @@
  
 
 body
+	font-family: $secondary
 	-webkit-font-smoothing: antialiased
 	text-rendering: optimizelegibility
+
+#scriptfy-content
+	background: url('../visuals/top_bg.jpg') no-repeat
+	background-size: cover
+
+.scriptfy
+	max-width: 980px
+	margin: auto
+	margin-top: 10em
+	h2
+		font-family: $primary
+		@extend .f-100
+		text-transform: uppercase
+		color: $white
+		font-weight: 900
+		line-height: 1
+	p
+		height: 1px
+		width: 60px
+		background: #cecece
+	h3
+		@extend .f-20
+		color: $white
+		text-transform: inherit
+		font-weight: 300
+		line-height: 2
